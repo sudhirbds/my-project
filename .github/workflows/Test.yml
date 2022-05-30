@@ -5,9 +5,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ Dev ]
+    branches: [ master ]
   pull_request:
-    branches: [ Dev ]
+    branches: [ master ]
 
 jobs:
   build-java:
